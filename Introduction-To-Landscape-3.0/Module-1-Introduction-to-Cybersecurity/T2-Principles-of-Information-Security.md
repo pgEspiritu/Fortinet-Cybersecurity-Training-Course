@@ -155,10 +155,10 @@ graph TD
     D --> E[Audit Reports & Policy Enforcement]
 
     classDef node fill:#007BFF,stroke:#004085,color:#fff,stroke-width:1.5px,rx:6,ry:6;
-    classDef end fill:#28A745,stroke:#155724,color:#fff,stroke-width:1.5px,rx:6,ry:6;
+    classDef output fill:#28A745,stroke:#155724,color:#fff,stroke-width:1.5px,rx:6,ry:6;
 
     class A,B,C,D node;
-    class E end;
+    class E output;
 ```
 
 📘 In summary, the AAA framework ensures that only verified users gain access to systems (Authentication), they only access what they’re permitted to (Authorization), and their actions are recorded for auditing and compliance (Accounting).
