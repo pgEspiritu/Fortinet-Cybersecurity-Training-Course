@@ -35,12 +35,12 @@ graph TD
     C --> D[🔄 Lateral Movement]
     D --> E[🎯 Objective Achieved — (data exfiltration / disruption)]
 
+    %% Styling
     classDef stage fill:#007BFF,stroke:#004085,color:#fff,stroke-width:1.5px,rx:6,ry:6;
     classDef final fill:#28A745,stroke:#155724,color:#fff,stroke-width:1.5px,rx:6,ry:6;
 
     class A,B,C,D stage;
     class E final;
-
 ```
 
 ---
