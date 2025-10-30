@@ -29,11 +29,18 @@ These examples show attack vectors can be electronic social engineering, physica
 An **attack path** is the chain of events that occurs when attack vectors are exploited in sequence (preparation → foothold → lateral movement → data exfiltration or disruption).
 
 ```mermaid
-graph LR
-  A[Initial Vector] --> B[Exploit Vulnerability]
-  B --> C[Foothold Established]
-  C --> D[Lateral Movement]
-  D --> E[Objective Achieved\n(data exfiltration / disruption)]
+graph TD
+    A[🧭 Initial Vector] --> B[💥 Exploit Vulnerability]
+    B --> C[🪜 Foothold Established]
+    C --> D[🔄 Lateral Movement]
+    D --> E[🎯 Objective Achieved\n(data exfiltration / disruption)]
+
+    %% Styling
+    classDef stage fill:#007BFF,stroke:#004085,color:#fff,stroke-width:1.5px,rx:6,ry:6;
+    classDef final fill:#28A745,stroke:#155724,color:#fff,stroke-width:1.5px,rx:6,ry:6;
+
+    class A,B,C,D stage;
+    class E final;
 ```
 
 ---
