@@ -33,7 +33,7 @@ graph LR
   A[Initial Vector] --> B[Exploit Vulnerability]
   B --> C[Foothold Established]
   C --> D[Lateral Movement]
-  D --> E[Objective Achieved<br/>(data exfiltration / disruption)]
+  D --> E[Objective Achieved\n(data exfiltration / disruption)]
 ```
 
 ---
