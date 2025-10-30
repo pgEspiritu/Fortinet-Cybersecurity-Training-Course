@@ -30,10 +30,10 @@ An **attack path** is the chain of events that occurs when attack vectors are ex
 
 ```mermaid
 graph TD
-    A[🧭 Initial Vector] --> B[💥 Exploit Vulnerability]
-    B --> C[🪜 Foothold Established]
-    C --> D[🔄 Lateral Movement]
-    D --> E[🎯 Objective Achieved — (data exfiltration / disruption)]
+    A[Initial Vector] --> B[Exploit Vulnerability]
+    B --> C[Foothold Established]
+    C --> D[Lateral Movement]
+    D --> E[Objective Achieved: data exfiltration or disruption]
 
     %% Styling
     classDef stage fill:#007BFF,stroke:#004085,color:#fff,stroke-width:1.5px,rx:6,ry:6;
