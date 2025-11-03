@@ -125,12 +125,12 @@ flowchart TD
   A[Insider Threats] --> B[Negligent Insiders]
   A --> C[Malicious Insiders]
 
-  B --> D[Pawn<br/>(manipulated via phishing, tailgating)]
-  B --> E[Goof<br/>(ignores policies, careless)]
+  B --> D[Pawn\n(manipulated via phishing, tailgating)]
+  B --> E[Goof\n(ignores policies, careless)]
 
-  C --> F[Lone Wolf<br/>(acts alone)]
-  C --> G[Collaborator<br/>(works with external group)]
-  C --> H[Mole<br/>(imposter gaining internal access)]
+  C --> F[Lone Wolf\n(acts alone)]
+  C --> G[Collaborator\n(works with external group)]
+  C --> H[Mole\n(imposter gaining internal access)]
 
   A --> I[Indicators & Defenses]
   I --> J[Behavioral & Digital Monitoring]
