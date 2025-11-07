@@ -118,15 +118,15 @@ FortiNAC delivers enterprise-grade control and protection, adapting to the evolv
 
 ```mermaid
 flowchart TD
-  A[💻 Device Attempts to Connect] --> B[🧱 Authenticator (Switch/WAP)]
-  B --> C[🔐 Authentication Server]
-  C -->|✔️ Authenticated| D[🌐 Access Granted<br/>(Segmented by Profile)]
-  C -->|❌ Failed| E[🚫 Access Denied]
+  A["Device Attempts to Connect"] --> B["Authenticator (Switch/WAP)"]
+  B --> C["Authentication Server"]
+  C -->|Authenticated| D["Access Granted (Segmented by Profile)"]
+  C -->|Failed| E["Access Denied"]
 
   subgraph Profiles
-    D1[🎥 IP Camera ➜ NVR Server]
-    D2[👤 Guest ➜ Internet VLAN]
-    D3[💼 Employee ➜ Intranet Apps]
+    D1["IP Camera -> NVR Server"]
+    D2["Guest -> Internet VLAN"]
+    D3["Employee -> Intranet Apps"]
   end
 
   D --> D1
@@ -135,6 +135,7 @@ flowchart TD
 
   classDef nac fill:#f3f4f6,stroke:#bbb,stroke-width:1px;
   class A,B,C,D,E,D1,D2,D3 nac;
+
 ```
 
 ---
