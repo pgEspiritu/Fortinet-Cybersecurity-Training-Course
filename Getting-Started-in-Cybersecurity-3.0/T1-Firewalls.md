@@ -77,6 +77,7 @@ flowchart TD
   A[🧱 Stateless Firewall\n(Packet Filter)] --> B[🔍 Stateful Firewall\n(Session Tracking)]
   B --> C[🧠 Application Layer Firewall\n(Deep Packet Inspection)]
   C --> D[🚀 Next-Generation Firewall\n(AI, Segmentation, Sandboxing)]
+
 ```
 
 ---
