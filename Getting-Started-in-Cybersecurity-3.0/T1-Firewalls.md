@@ -74,9 +74,9 @@ Modern NGFWs are designed for **hybrid and multi-cloud data centers**, deliverin
 
 ```mermaid
 flowchart TD
-  A[🧱 Stateless Firewall<br/>(Packet Filter)] --> B[🔍 Stateful Firewall<br/>(Session Tracking)]
-  B --> C[🧠 Application Layer Firewall<br/>(Deep Packet Inspection)]
-  C --> D[🚀 Next-Generation Firewall<br/>(AI, Segmentation, Sandboxing)]
+  A[🧱 Stateless Firewall\n(Packet Filter)] --> B[🔍 Stateful Firewall\n(Session Tracking)]
+  B --> C[🧠 Application Layer Firewall\n(Deep Packet Inspection)]
+  C --> D[🚀 Next-Generation Firewall\n(AI, Segmentation, Sandboxing)]
 ```
 
 ---
